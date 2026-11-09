@@ -1,0 +1,21 @@
+model,mask_type,se,severity,support,avg_score_with_mask,avg_score_zero_mask,difference_with_minus_zero,pct_individual_scores_higher_with_mask
+B0+B3+SE | predicted,predicted,True,no_dr,3872,0.7076286077,0.6930719614,0.0145566463,61.1053719008
+B0+B3+SE | predicted,predicted,True,mild,366,0.1943960190,0.2096489221,-0.0152529031,31.1475409836
+B0+B3+SE | predicted,predicted,True,moderate,794,0.4158282876,0.3449784815,0.0708498061,67.3803526448
+B0+B3+SE | predicted,predicted,True,severe,131,0.3606546819,0.4098028243,-0.0491481423,30.5343511450
+B0+B3+SE | predicted,predicted,True,proliferative_dr,106,0.4903653264,0.4879121184,0.0024532080,42.4528301887
+B0+B3 | predicted | no SE,predicted,False,no_dr,3872,0.6149300933,0.5509818792,0.0639482141,74.8192148760
+B0+B3 | predicted | no SE,predicted,False,mild,366,0.2493613362,0.2682499588,-0.0188886225,34.9726775956
+B0+B3 | predicted | no SE,predicted,False,moderate,794,0.3229687512,0.2978182435,0.0251505077,57.4307304786
+B0+B3 | predicted | no SE,predicted,False,severe,131,0.3226808012,0.3391031623,-0.0164223611,35.1145038168
+B0+B3 | predicted | no SE,predicted,False,proliferative_dr,106,0.4788394570,0.4545630217,0.0242764354,50.0000000000
+B0+B4+SE | refined,refined,True,no_dr,3872,0.6394663453,0.6233820915,0.0160842538,64.7985537190
+B0+B4+SE | refined,refined,True,mild,366,0.2546989918,0.2351882160,0.0195107758,57.1038251366
+B0+B4+SE | refined,refined,True,moderate,794,0.3270559609,0.2932094038,0.0338465571,55.7934508816
+B0+B4+SE | refined,refined,True,severe,131,0.3994343281,0.4162842333,-0.0168499053,30.5343511450
+B0+B4+SE | refined,refined,True,proliferative_dr,106,0.5367111564,0.4918027818,0.0449083745,55.6603773585
+B0+B4 | refined | no SE,refined,False,no_dr,3872,0.6487544775,0.6012631655,0.0474913120,73.3471074380
+B0+B4 | refined | no SE,refined,False,mild,366,0.2212979645,0.2182760239,0.0030219406,40.7103825137
+B0+B4 | refined | no SE,refined,False,moderate,794,0.3240048289,0.3226695657,0.0013352633,46.3476070529
+B0+B4 | refined | no SE,refined,False,severe,131,0.3075268567,0.3168120980,-0.0092852414,35.8778625954
+B0+B4 | refined | no SE,refined,False,proliferative_dr,106,0.4236357212,0.4285167456,-0.0048810244,41.5094339623
